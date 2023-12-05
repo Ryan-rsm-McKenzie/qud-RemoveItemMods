@@ -25,7 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="src\Main.cs" />
+    <Compile Include="src\Common.cs" />
+    <Compile Include="src\Menu.cs" />
+    <Compile Include="src\Patches.cs" />
   </ItemGroup>
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
